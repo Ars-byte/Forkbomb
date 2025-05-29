@@ -7,11 +7,4 @@ A fork bomb works by rapidly creating a large number of processes with the goal 
 Fork bombs not only occupy space in the process table but also consume processing time and memory on the machine where they are running. As a result, computers become slow and may even become unusable due to the lack of memory and the inability to utilize the processor effectively.
 
 
-## EXECUTION
-
-chmod +x bomb.sh
-
-./bomb.sh
-
-
 **WARNING**: Do not run this program—it may freeze your PC. If executed, reboot immediately.
