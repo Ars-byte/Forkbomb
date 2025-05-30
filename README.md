@@ -17,5 +17,11 @@ chmod +x bomb.sh
 
 ./bomb.sh
 
+or 
+
+g++ bomb.cpp -o bomb_cpp_loader -std=c++11 -pthread
+
+./bomb_cpp_loader
+
 
 **WARNING**: Do not run this program—it may freeze your PC. If executed, reboot immediately.
